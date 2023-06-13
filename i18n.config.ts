@@ -4,6 +4,7 @@ export default defineI18nConfig(() => ({
     differentDomains: true,
     detectBrowserLanguage: false,
     strategy: 'no_prefix',
+    baseUrl: 'https://thomas-philippot.dev',
     locales: [
         {
             code: 'fr',
@@ -22,10 +23,12 @@ export default defineI18nConfig(() => ({
         fr: {
             welcome: 'Bonjour, je m\'appelle Thomas',
             tagline: 'Je suis un développeur web Français de 25 ans.',
+            projects: 'Mes projets'
         },
         en: {
             welcome: 'Hello my name is Thomas',
             tagline: 'I am a French web developer, 25 years old.',
+            projects: 'My projects'
         }
     }
 }))
