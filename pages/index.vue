@@ -37,7 +37,7 @@
     </div>
   </section>
     <section class="py-16 px-6 lg:px-0">
-        <h2 class="text-4xl font-semibold text-flamingo mb-5 px-6 md:px-0">{{ $t('experience') }}</h2>
+        <h2 class="text-4xl font-semibold text-flamingo mb-5 px-6">{{ $t('experience') }}</h2>
         <div class="flex flex-col gap-6">
             <div class="flex flex-col md:flex-row items-start gap-4 p-4">
                 <p class="text-sm text-subtext0 uppercase mt-1">2018 - {{ $t('today')}}</p>
