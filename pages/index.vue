@@ -74,7 +74,7 @@
                   </div>
               </div>
           </a>
-          <a class="rounded-md border-2 border-teal " href="https://mineral-contest.netlify.app">
+          <a class="rounded-md border-2 border-teal w-full sm:w-1/2 md:w-1/3 lg:w-1/4" href="https://mineral-contest.netlify.app">
               <img src="/assets/sites/mineral-contest.png" class="rounded-t-md w-full h-40" />
               <div class="p-5">
                   <div class="text-2xl font-bold text-teal">
