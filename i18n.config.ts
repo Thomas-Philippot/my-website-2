@@ -1,22 +1,19 @@
 export default defineI18nConfig(() => ({
     legacy: false,
     locale: 'fr',
-    differentDomains: true,
-    detectBrowserLanguage: false,
+    detectBrowserLanguage: true,
     strategy: 'no_prefix',
     baseUrl: 'https://thomas-philippot.dev',
     locales: [
         {
             code: 'fr',
             iso: 'fr-FR',
-            name: 'Français',
-            domain: 'thomas.philippot.dev'
+            name: 'Français'
         },
         {
             code: 'en',
             iso: 'en-US',
-            name: 'English',
-            domain: 'en.thomas.philippot.dev'
+            name: 'English'
         }
     ],
     messages: {
