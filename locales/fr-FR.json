@@ -1,0 +1,9 @@
+{
+  "welcome": "Bonjour, je m'appelle Thomas",
+  "tagline": "Je suis un développeur web Français de 25 ans.",
+  "projects": "Mes projets",
+  "experience": "Expérience",
+  "today": "Aujourd'hui",
+  "fullstack-dev": "Développeur Fullstack",
+  "mylab-exp": "En charge du développement et de la mise en production d'applications interne, je conçois une base de données puis une API REST correspondant aux besoins, puis une interface utilisateur (single page application). Je me charge également de la mise en production sur un serveur NGINX.",
+}

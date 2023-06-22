@@ -1,0 +1,9 @@
+{
+  "welcome": "Hello my name is Thomas",
+  "tagline": "I am a French web developer, 25 years old.",
+  "projects": "My projects",
+  "experience": "Experience",
+  "today": "today",
+  "fullstack-dev": "Fullstack Developer",
+  "mylab-exp": "In charge of the development and shipping of internal applications, I design a database then a REST API corresponding to the user needs, then a user interface (single page application). I also take care of the app shipping on an NGINX server."
+}

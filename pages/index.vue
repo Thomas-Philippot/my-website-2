@@ -13,22 +13,22 @@
       <div class="my-6">
           <ul class="flex justify-center md:justify-start">
               <li class="text-3xl font-semibold mx-2 hover:text-text/70">
-                  <a href="https://github.com/thomas-philippot">
+                  <a href="https://github.com/thomas-philippot" aria-label="Follow me on Github">
                       <font-awesome-icon icon="fab fa-github" />
                   </a>
               </li>
               <li class="text-3xl font-semibold mx-2 hover:text-mauve">
-                  <a href="https://piaille.fr/@adewale">
+                  <a href="https://piaille.fr/@adewale" aria-label="Follow me on Mastodon">
                       <font-awesome-icon icon="fab fa-mastodon" />
                   </a>
               </li>
               <li class="text-3xl font-semibold mx-2 hover:text-text/70">
-                  <a href="https://dev.to/thomas_ph35">
+                  <a href="https://dev.to/thomas_ph35" aria-label="Follow me on dev.to">
                       <font-awesome-icon icon="fab fa-dev" />
                   </a>
               </li>
               <li class="text-3xl font-semibold mx-2 hover:text-blue">
-                  <a href="https://dev.to/thomas_ph35">
+                  <a href="https://dev.to/thomas_ph35" aria-label="Follow me on LinkedIn">
                       <font-awesome-icon icon="fab fa-linkedin" />
                   </a>
               </li>
@@ -62,7 +62,7 @@
       <h2 class="text-4xl font-semibold text-teal mb-5">{{ $t('projects') }}</h2>
       <div class="flex flex-col lg:flex-row flex-wrap items-center justify-center gap-6">
           <a class="rounded-md border-2 border-teal w-full sm:w-1/2 md:w-1/3 lg:w-1/4" href="https://mylene-naturo.fr">
-              <img src="/assets/sites/mylene-naturo.webp" class="rounded-t-md w-full h-40" />
+              <img src="/assets/sites/mylene-naturo.webp" alt="Le site Myelene Naturo" class="rounded-t-md w-full h-40" />
               <div class="p-5">
                   <div class="text-2xl font-bold text-teal">
                       Mylene Naturo
@@ -75,7 +75,7 @@
               </div>
           </a>
           <a class="rounded-md border-2 border-teal w-full sm:w-1/2 md:w-1/3 lg:w-1/4" href="https://mineral-contest.netlify.app">
-              <img src="/assets/sites/mineral-contest.webp" class="rounded-t-md w-full h-40" />
+              <img src="/assets/sites/mineral-contest.webp" alt="Le site Mineral Contest" class="rounded-t-md w-full h-40" />
               <div class="p-5">
                   <div class="text-2xl font-bold text-teal">
                       Mineral Contest
