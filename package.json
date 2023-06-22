@@ -12,6 +12,7 @@
   "devDependencies": {
     "@catppuccin/tailwindcss": "^0.1.1",
     "@nuxt/devtools": "latest",
+    "@nuxt/image": "^1.0.0-rc.1",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/i18n": "^8.0.0-beta.12",
     "@nuxtjs/tailwindcss": "^6.7.0",

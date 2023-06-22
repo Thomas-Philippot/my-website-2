@@ -5,6 +5,7 @@ export default defineNuxtConfig({
         '@fortawesome/fontawesome-svg-core/styles.css'
     ],
     modules: [
+        '@nuxt/image',
         '@nuxtjs/color-mode',
         '@nuxtjs/i18n',
         '@nuxtjs/tailwindcss'
@@ -13,6 +14,7 @@ export default defineNuxtConfig({
         classSuffix: '',
         preference: 'latte',
     },
+    image: {},
     i18n: {
         strategy: 'no_prefix',
         baseUrl: 'https://thomas-philippot.dev' || 'localhost:3000',
