@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full flex items-center justify-between pb-16 sm:pb-4 flex-col md:flex-row-reverse xs:px-5">
+  <section class="w-full flex items-center justify-between pb-16 sm:pb-4 flex-col md:flex-row-reverse px-6 xl:px-0">
     <div class="mt-6 px-6 md:px-12 md:px-12 shrink-0">
       <nuxt-img
           src="/assets/avatar.webp"
@@ -8,8 +8,8 @@
           sizes="xs:800px sm:900px md:1000px lg:1024px"
       />
     </div>
-    <div class="shrink text-center md:text-left p-2 mt-0 sm:mt-1 md:mt-40">
-      <h1 class="text-6xl font-semibold my-8 text-mauve">{{ $t('welcome') }}</h1>
+    <div class="shrink text-center md:text-left py-2 mt-0 sm:mt-1 md:mt-40">
+      <h1 class="text-6xl font-semibold my-8 text-mauve tracking-tight">{{ $t('welcome') }}</h1>
       <p class="text-2xl">{{ $t('tagline') }}</p>
       <div class="my-6">
           <ul class="flex justify-center md:justify-start">
@@ -37,7 +37,7 @@
       </div>
     </div>
   </section>
-    <section class="py-16 px-6 lg:px-0">
+    <section class="py-16 px-6 xl:px-0">
         <h2 class="text-4xl font-semibold text-flamingo mb-5">{{ $t('experience') }}</h2>
         <div class="flex flex-col gap-6">
             <div class="flex flex-col md:flex-row items-start gap-4 p-4">
@@ -59,7 +59,7 @@
             </div>
         </div>
     </section>
-  <section class="py-16 px-6 lg:px-0">
+  <section class="py-16 px-6 xl:px-0">
       <h2 class="text-4xl font-semibold text-teal mb-5">{{ $t('projects') }}</h2>
       <div class="flex flex-col lg:flex-row flex-wrap items-center justify-center gap-6">
           <a class="rounded-md border-2 border-teal w-full sm:w-1/2 md:w-1/3 lg:w-1/4" href="https://mylene-naturo.fr">
